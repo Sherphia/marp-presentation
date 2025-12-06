@@ -21,8 +21,8 @@ This presentation demonstrates all required Marp features:
 
 - Custom theme  
 - Background images  
-- **Slide-specific styling using Marp directives**  
-- LaTeX mathematical equations  
+- **Slide-specific styling (using Marp directives)**  
+- LaTeX mathematics  
 - Page numbers  
 - Email included  
 
@@ -41,7 +41,7 @@ h1 {
 <!-- _class: invert -->
 # Custom Theme Example
 
-This slide uses the **Gaia** theme with global custom CSS.
+This slide uses the **Gaia** theme and global custom CSS.
 
 ---
 
@@ -52,7 +52,7 @@ This slide uses the **Gaia** theme with global custom CSS.
 
 <style scoped>
 section {
-    color: white;
+    color: white; 
     text-shadow: 1px 1px 3px #000000;
 }
 </style>
@@ -68,3 +68,18 @@ section {
 ```python
 def area_circle(r):
     return 3.14159 * r * r
+```
+
+### Time Complexity of Merge Sort
+
+Block math required:
+
+$$
+T(n) = 2T\left(\frac{n}{2}\right) + n
+$$
+
+---
+
+<!-- _class: lead -->
+# Thank You!  
+Contact: **22f2001145@ds.study.iitm.ac.in**
