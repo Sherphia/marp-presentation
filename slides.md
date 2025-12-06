@@ -7,32 +7,33 @@ theme: gaia
 ---
 
 <!-- _class: lead -->
-# 📄 Product Documentation  
+# 📘 Product Documentation  
 ### Created by: **22f2001145@ds.study.iitm.ac.in**
 
 ---
 
 <!-- _header: Product Docs · v1.0 -->
 <!-- _footer: © 2025 Sherphia | 22f2001145@ds.study.iitm.ac.in -->
-<!-- _backgroundColor: #f0f8ff -->
+<!-- _backgroundColor: #f4f9ff -->
 
-# Overview  
-This presentation demonstrates all required Marp features:
+# Overview
+
+This Marp presentation demonstrates:
 
 - Custom theme  
-- Background images  
-- **Slide-specific styling (using Marp directives)**  
-- LaTeX mathematics  
 - Page numbers  
+- Background image  
+- Custom CSS styling  
+- **Mathematical equations (LaTeX)**  
 - Email included  
 
 <style>
 section {
-  color: #003366;
-  font-family: Arial, sans-serif;
+  color: #003355;
+  font-family: "Segoe UI", sans-serif;
 }
 h1 {
-  color: #cc0000;
+  color: #c62828;
 }
 </style>
 
@@ -41,7 +42,7 @@ h1 {
 <!-- _class: invert -->
 # Custom Theme Example
 
-This slide uses the **Gaia** theme and global custom CSS.
+This slide uses **Gaia** theme + custom styling.
 
 ---
 
@@ -52,8 +53,8 @@ This slide uses the **Gaia** theme and global custom CSS.
 
 <style scoped>
 section {
-    color: white; 
-    text-shadow: 1px 1px 3px #000000;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
 }
 </style>
 
@@ -62,24 +63,10 @@ section {
 <!-- _color: #003399 -->
 <!-- _backgroundColor: #e8f0ff -->
 
-# Algorithmic Complexity & Code
+# Algorithmic Complexity
 
 ## Code Example
+
 ```python
-def area_circle(r):
-    return 3.14159 * r * r
-```
-
-### Time Complexity of Merge Sort
-
-Block math required:
-
-$$
-T(n) = 2T\left(\frac{n}{2}\right) + n
-$$
-
----
-
-<!-- _class: lead -->
-# Thank You!  
-Contact: **22f2001145@ds.study.iitm.ac.in**
+def multiply(a, b):
+    return a * b
