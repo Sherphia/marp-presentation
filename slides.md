@@ -7,33 +7,32 @@ theme: gaia
 ---
 
 <!-- _class: lead -->
-# 📘 Product Documentation  
+# 📄 Product Documentation  
 ### Created by: **22f2001145@ds.study.iitm.ac.in**
 
 ---
 
 <!-- _header: Product Docs · v1.0 -->
 <!-- _footer: © 2025 Sherphia | 22f2001145@ds.study.iitm.ac.in -->
-<!-- _backgroundColor: #f4f9ff -->
+<!-- _backgroundColor: #f0f8ff -->
 
-# Overview
-
-This Marp presentation demonstrates:
+# Overview  
+This presentation demonstrates all required Marp features:
 
 - Custom theme  
+- Background images  
+- **Slide-specific styling using Marp directives**  
+- LaTeX mathematical equations  
 - Page numbers  
-- Background image  
-- Custom CSS styling  
-- Math equations  
 - Email included  
 
 <style>
 section {
-  color: #003355;
-  font-family: "Segoe UI", sans-serif;
+  color: #003366;
+  font-family: Arial, sans-serif;
 }
 h1 {
-  color: #c62828;
+  color: #cc0000;
 }
 </style>
 
@@ -42,7 +41,7 @@ h1 {
 <!-- _class: invert -->
 # Custom Theme Example
 
-This slide uses **Gaia** theme + custom styling.
+This slide uses the **Gaia** theme with global custom CSS.
 
 ---
 
@@ -54,7 +53,7 @@ This slide uses **Gaia** theme + custom styling.
 <style scoped>
 section {
     color: white;
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: 1px 1px 3px #000000;
 }
 </style>
 
@@ -63,10 +62,9 @@ section {
 <!-- _color: #003399 -->
 <!-- _backgroundColor: #e8f0ff -->
 
-# Algorithmic Complexity
+# Algorithmic Complexity & Code
 
 ## Code Example
-
 ```python
-def multiply(a, b):
-    return a * b
+def area_circle(r):
+    return 3.14159 * r * r
