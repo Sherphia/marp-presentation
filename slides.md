@@ -3,7 +3,7 @@ marp: true
 title: Product Documentation
 author: Sherphia
 paginate: true
-theme: gaia
+theme: default
 ---
 
 <!-- _class: lead -->
@@ -17,14 +17,15 @@ theme: gaia
 <!-- _backgroundColor: #f0f8ff -->
 
 # Overview  
-This Marp presentation demonstrates all required features:
+
+This presentation includes:
 
 - Custom theme  
 - Background image  
-- **Slide-specific styling**  
-- LaTeX mathematics  
+- **Marp slide-level styling**  
+- **LaTeX mathematical equations**  
 - Page numbers  
-- Your email included  
+- Email included  
 
 <style>
 section {
@@ -41,19 +42,19 @@ h1 {
 <!-- _class: invert -->
 # Custom Theme Example
 
-This slide uses the **Gaia** theme with custom CSS styling.
+This slide uses the default theme with custom CSS.
 
 ---
 
 <!-- _class: lead -->
-![bg cover](https://picsum.photos/2000/1200)
+![bg cover](https://picsum.photos/1920/1080)
 
 # Background Image Slide
 
 <style scoped>
 section {
     color: white; 
-    text-shadow: 1px 1px 4px #000000;
+    text-shadow: 1px 1px 3px #000;
 }
 </style>
 
@@ -62,9 +63,23 @@ section {
 <!-- _color: #003399 -->
 <!-- _backgroundColor: #e8f0ff -->
 
-# Algorithmic Complexity & Example Code
+# Algorithmic Complexity & Math
 
-## Code Example  
-```python
-def area_circle(r):
-    return 3.14159 * r * r
+## Time Complexity Example  
+Merge Sort recurrence:
+
+$$
+T(n) = 2T\left(\frac{n}{2}\right) + n
+$$
+
+By Master Theorem:
+
+$$
+T(n) = O(n \log n)
+$$
+
+---
+
+<!-- _class: lead -->
+# Thank You!  
+Contact: **22f2001145@ds.study.iitm.ac.in**
